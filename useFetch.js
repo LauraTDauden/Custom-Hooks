@@ -14,7 +14,6 @@ export const useFetch = (url) => {
         };
     }, []);
 
-
     useEffect(() => {
 
         setState({ data: null, loading: true, error: null })
